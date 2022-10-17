@@ -1,0 +1,42 @@
+package com.clean.common.constant;
+
+public class StatusMapped {
+    // REQUEST DETAIL
+    public static int REQUEST_DETAIL_COMPLETED_DISTRIBUTION=7;
+    public static int REQUEST_DETAIL_PARTIAL_DISTRIBUTION=8;
+    // public static int REQUEST_DETAIL_REJECTED_DISTRIBUTION=1;
+    // public static int REQUEST_DETAIL_SENDTO_DISTRIBUTION=1;
+    // public static int REQUEST_DETAIL_ENTRY=1;
+    
+    // DISTRIBUTION Detail
+    public static int DISTRIBUTION_DETAIL_DISTRIBUTED=15;
+    public static int DISTRIBUTION_DETAIL_REALLOCATED=16;
+    public static int DISTRIBUTION_DETAIL_UNDER_DISTRIBUTION=17;
+
+    // ITEM DISTRIBUTED SPECIFICATION
+    public static int DISTRIBUTION_SPECIFICATION_USE=5;
+    public static int DISTRIBUTION_SPECIFICATION_SEDNTO_REALLOCATION=13;
+    public static int DISTRIBUTION_SPECIFICATION_REALLOCATED=14;
+
+    //ITEM SPECIFICATION
+    public static int SPECIFICATION_DISTRIBUTED=6;
+    public static int SPECIFICATION_WAREHOUSE=4;
+    public static int SPECIFICATION_SEND_TO_AUCTION=9;
+    public static int SPECIFICATION_AUCTIONED=10;
+    public static int SPECIFICATION_LOST=11;
+    public static int SPECIFICATION_BURNED=12;
+
+    //ITEM RECEIPT
+    public static int RECEIPT_UNERPROCESS=2;
+    public static int RECEIPT_USABLE=3;
+
+    // ITEM REALLOCATION DETAIL
+    public static int REALLOCATION_DETAIL_UNDER_REALLOCATION=18;
+    public static int REALLOCATION_DETAIL_REALLOCATED=19;
+
+    // ITEM REALLOCATION SPECIFICATION
+    public static int REALLOCATION_TO_EMPLOYEE=20;
+    public static int REALLOCATION_TO_WAREHOUSE=21;
+    public static int REALLOCATION_SPECIFICATION_TO_USABLE = 22;
+    public static int REALLOCATION_SPECIFICATION_SEND_TO_AUCTION=23;
+}
